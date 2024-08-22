@@ -1,0 +1,31 @@
+name: mvtz
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2 # Updated http package version
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/mvtz_logo.png # Add your coin logo here
+    - assets/mvtz_logo1.png # Add your coin logo here
+    - assets/icons/task.png # Add icons for Task
+    - assets/icons/mining.png # Add icons for Mine
+    - assets/icons/roadmap.png # Add icons for Roadmap
+    - assets/icons/referral.png # Add icons for Referral
